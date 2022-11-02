@@ -67,7 +67,7 @@ public class ControleDeFluxo {
                 System.out.println("Férias");
                 break;
             default:
-                System.out.println("Opção invalida");
+                System.out.println("Mês Invalido");
         }
     }
 
@@ -96,7 +96,7 @@ public class ControleDeFluxo {
                 System.out.println(7);
                 break;
             default:
-                System.out.println("Opção Invalida");
+                System.out.println("Dia da semana não encotrado");
                 break;
         }
     }
@@ -116,7 +116,7 @@ public class ControleDeFluxo {
                 System.out.println("Talvez");
                 break;
             default:
-                System.out.println("Valor Indefinido");
+                System.out.println("Número não encontrado");
                 break;
         }
     }
