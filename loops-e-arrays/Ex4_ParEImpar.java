@@ -1,5 +1,3 @@
-import jdk.jshell.Snippet;
-
 import java.util.Scanner;
 
 /**
