@@ -1,7 +1,7 @@
 // Classe de exemplo do Exercicio 3
 public class Carro {
 
-    // Atributos Da Classe - Aula 3
+    // Atributos Da Classe
     String cor;
     String modelo;
     int capaciadadeDoTanque;
