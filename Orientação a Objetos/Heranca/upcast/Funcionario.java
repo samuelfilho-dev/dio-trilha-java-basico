@@ -1,4 +1,4 @@
-package Heranca;
+package Heranca.upcast;
 
 public class Funcionario {
 

@@ -1,4 +1,4 @@
-package Heranca;
+package Heranca.upcast;
 
 // Classe Principal da Aula 4 - Herança
 
