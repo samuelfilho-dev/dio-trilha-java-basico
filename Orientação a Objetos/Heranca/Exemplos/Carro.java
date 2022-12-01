@@ -1,4 +1,4 @@
-package Heranca;
+package Heranca.Exemplos;
 
 public class Carro extends Veiculo {
 
