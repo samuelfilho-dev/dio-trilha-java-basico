@@ -87,6 +87,28 @@ public class ExemploList {
         System.out.println("Está vazia? " + notas.isEmpty()); // isEmpty - Confere se a lista está vazia retorna Boolean
 
 
+        //Para você: Resolva esses exercícios utilizando os métodos da implementação LinkedList:
+
+        // TODO: Crie uma lista chamada notas2 e coloque todos os elementos da list Arraylist nessa nova lista
+
+        LinkedList<Double> notas2 = new LinkedList<>();
+        notas2.add(7.0);
+        notas2.add(8.5);
+        notas2.add(9.3);
+        notas2.add(5.0);
+        notas2.add(7.0);
+        notas2.add(0.0);
+        notas2.add(3.6);
+        System.out.println(notas2);
+
+        // TODO: Mostre a primeira nota da nova lista sem removê-lo:
+        System.out.println(notas2.element()); // .element - Mostra o primeiro elemento da lista
+
+        // TODO: Mostre a primeira nota da nova lista removendo-o:
+        System.out.println(notas2.pollFirst()); // .pollFirst() - Recupera e remove o primeiro elemento desta lista, ou retorna, se esta lista estiver vazia.null
+        System.out.println("\n " + notas2);
+
+
 
     }
 }
