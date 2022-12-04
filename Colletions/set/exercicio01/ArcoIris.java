@@ -34,24 +34,24 @@ public class ArcoIris {
             System.out.print(cores + "\n");
         }
 
-        System.out.println("=============================");
+        System.out.println("\n");
 
         // TODO: A quantidade de cores que o arco-íris tem
         System.out.println("Quantidade De Cores: " + coresDoArcoIris.size());
 
-        System.out.println("=============================");
+        System.out.println("\n");
 
         // TODO: Exiba as cores em ordem alfabética
         System.out.println("Cores Em Ordem Alfabética: \n" + coresDoArcoIris);
 
-        System.out.println("=============================");
+        System.out.println("\n");
 
         // TODO: Exiba as cores na ordem inversa da que foi informada
         List<String> listaCoresDoArcoIris = new ArrayList<>(coresDoArcoIris);
         Collections.reverse(listaCoresDoArcoIris);
         System.out.println("Conjunto Inverso: \n" + listaCoresDoArcoIris);
 
-        System.out.println("=============================");
+        System.out.println("\n");
 
         // TODO: Exiba todas as cores que começam com a letra ”v”
         System.out.println("Cores Do Arco Iris Que Começam Com V: ");
@@ -59,7 +59,7 @@ public class ArcoIris {
             if (corDoArcoIris.startsWith("V")) System.out.println(corDoArcoIris);
         }
 
-        System.out.println("=============================");
+        System.out.println("\n");
 
         // TODO: Remova todas as cores que não começam com a letra “v”
         Iterator<String> iterator = coresDoArcoIris.iterator();
@@ -69,10 +69,12 @@ public class ArcoIris {
         }
         System.out.println("Cores Do Arco Iris Sem V: ");
         System.out.println(coresDoArcoIris);
-        System.out.println("=============================");
+        System.out.println("\n");
 
         // TODO: Limpe o conjunto
         coresDoArcoIris.clear();
+        System.out.println("Conjunto Limpo: " + coresDoArcoIris);
+        System.out.println("\n");
 
         // TODO: Confira se o conjunto está vazio
         System.out.println("Está vazio? " + coresDoArcoIris.isEmpty());
