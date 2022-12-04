@@ -21,6 +21,8 @@ import java.util.*;
  * Remova os estados com a população menor que 4.000.000;
  * Apague o dicionário de estados;
  * Confira se o dicionário está vazio.
+ *
+ * @author Samuel Marques
  */
 
 public class Estados {
