@@ -1,4 +1,4 @@
-package list.execicio1;
+package list.exercicio01;
 
 import java.util.ArrayList;
 import java.util.Iterator;
