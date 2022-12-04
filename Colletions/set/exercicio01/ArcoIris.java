@@ -13,6 +13,8 @@ import java.util.*;
  *  Limpe o conjunto
  *  Confira se o conjunto está vazio
  *
+ * @author Samuel Marques
+ *
  * */
 
 public class ArcoIris {
