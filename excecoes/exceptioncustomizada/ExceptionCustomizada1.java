@@ -36,6 +36,14 @@ public class ExceptionCustomizada1 {
     }
 
     public static BufferedReader lerArquivo(String nomeDoArquivo) throws ImpossivelAberturaDeArquivoExeception {
+
+        /*
+            // Outra Forma Do Método de colocar o try
+
+        try(BufferedWriter br = new BufferedReader(new FileReader(nomeDoArquivo))){
+        }finally {
+        }*/
+
         File file = new File(nomeDoArquivo);
         try {
             return new BufferedReader(new FileReader(nomeDoArquivo));
