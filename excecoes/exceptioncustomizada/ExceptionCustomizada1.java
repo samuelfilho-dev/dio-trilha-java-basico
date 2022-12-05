@@ -22,14 +22,15 @@ public class ExceptionCustomizada1 {
                 bw.newLine();
                 line = br.readLine();
             } while (line != null);
+            line = br.readLine();
             bw.flush();
             br.close();
-            line = br.readLine();
         } catch (ImpossivelAberturaDeArquivoExeception e) {
             JOptionPane.showMessageDialog(null,e.getMessage());
             e.printStackTrace();
         } catch (IOException e) {
             JOptionPane.showMessageDialog(null, "Ocorreu um Erro não Esperado, por favor, entre em contato com o suporte!" + e.getMessage());
+            e.printStackTrace();
         }
 
     }
