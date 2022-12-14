@@ -1,6 +1,6 @@
 package list;
 
-/*Dadas as seguintes informações sobre meus gatos, crie uma lista
+/*Dadas as seguintes informações sobre os meus gatos, crie uma lista
 e ordene esta lista exibindo:
 (nome - idade - cor);
 
