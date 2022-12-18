@@ -1,5 +1,7 @@
 package dio.web.api.repository;
 
+import dio.web.api.handler.BusinessException;
+import dio.web.api.handler.CampoObrigatorioException;
 import dio.web.api.model.Usuario;
 import org.springframework.stereotype.Repository;
 
@@ -10,6 +12,9 @@ import java.util.List;
 public class UserRepository {
 
     public void save(Usuario usuario){
+        if (usuario.getLogin() == null) throw new CampoObrigatorioException("Login");
+        if (usuario.getPassword() == null) throw new CampoObrigatorioException("Password");
+
         if (usuario.getId()==null){
             System.out.println("SAVE - Recebendo o usuario na camada de repositorio");
         }else{
